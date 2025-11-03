@@ -1,0 +1,27 @@
+{
+  "best_model": "iforest",
+  "threshold": -0.06159877965955869,
+  "features": [
+    "Amount",
+    "hour",
+    "dow",
+    "dom",
+    "month",
+    "amt_log",
+    "Merchant_freq",
+    "TransactionType_freq",
+    "Location_freq",
+    "AccountID_freq",
+    "acc_roll_mean",
+    "acc_roll_std",
+    "acc_prev_amt",
+    "acc_txn_ct_w50",
+    "acc_amt_sum_w50",
+    "acc_z",
+    "amt_diff_prev"
+  ],
+  "policy": {
+    "type": "top_k_review_rate",
+    "target_review_rate": 0.01
+  }
+}
